@@ -556,7 +556,20 @@ img {
   }
 }
 /* -----------------end serves page  ------------- */
+/* -----------------start contact page  ------------- */
 
+#header-contact {
+  height: 70vh;
+  background-image: url("../image/services-implementation-page-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.h2-contact {
+  color: #fff;
+  padding-top: 10%;
+}
+/* -----------------end contact page  ------------- */
 /* -----------------start footer ------------- */
 footer ul {
   margin: 0px;
