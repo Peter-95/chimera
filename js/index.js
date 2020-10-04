@@ -13,7 +13,7 @@ $(document).ready(function () {
   // navbar  dynamic background
   $(window).scroll(function () {
     if ($(window).scrollTop() >= 300) {
-      $(".navbar").css("background", "#d3dbff");
+      $(".navbar").css("background", "#f5aa1d");
       $(".navbar-toggler").css("hover", "#FFF");
     } else {
       $(".navbar").css("background", "transparent");

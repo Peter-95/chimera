@@ -13,6 +13,9 @@ body {
 }
 .navbar {
   box-shadow: none;
+  position: fixed;
+  z-index: 100;
+  min-width: 100%;
 }
 #header-home svg {
   position: absolute;
@@ -109,7 +112,7 @@ body {
   font-size: 20px;
 }
 .services-content__title {
-  font-sie: 18px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -414,22 +417,19 @@ img {
 }
 .uk-subnav-pill > .uk-active > a,
 .a-back a:hover {
-  background-color: #f5aa1d !important;
+  background-color: #ffc107 !important;
 }
 .uk-subnav {
   padding-left: 38%;
-  padding-top: 30px;
   padding-top: 20px;
 }
+
 @media (max-width: 800px) {
   .uk-subnav {
     padding-left: 25%;
   }
 }
-.work-btn {
-  margin-left: 45%;
-  margin-top: 20px;
-}
+
 /* -----------------end porto page  ------------- */
 
 /* -----------------start serves page  ------------- */
@@ -661,6 +661,9 @@ footer ul {
 .behance-bg {
   background: #053eff;
 }
+.linkedin-bg {
+  background: #0e72a3;
+}
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
@@ -740,7 +743,4 @@ footer ul {
 /* -----------------end footer ------------- */
 .center {
   text-align: center !important;
-}
-section {
-  padding: 20px 0 20px;
 }
